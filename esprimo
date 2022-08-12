@@ -1,0 +1,10 @@
+def esprimo(n):
+    for x in range(n-1,2,-1):
+        if n%x==0:
+            return False
+    return True
+
+x=7
+print(esprimo(x))
+x=10
+print(esprimo(x))
