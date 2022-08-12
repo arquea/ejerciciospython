@@ -1,0 +1,5 @@
+def triangulo(base,altura):
+    return base*altura/2
+
+def circulo(radio):
+    return 3.14*radio*radio
